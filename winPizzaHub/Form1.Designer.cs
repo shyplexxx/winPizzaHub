@@ -33,18 +33,18 @@ namespace winPizzaHub
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +55,7 @@ namespace winPizzaHub
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(96)))), ((int)(((byte)(61)))));
             this.label1.Location = new System.Drawing.Point(200, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 37);
+            this.label1.Size = new System.Drawing.Size(250, 56);
             this.label1.TabIndex = 1;
             this.label1.Text = "PizzaHub ";
             // 
@@ -65,7 +65,7 @@ namespace winPizzaHub
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(203, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 20);
+            this.label2.Size = new System.Drawing.Size(183, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Пицца, как у мамы";
             // 
@@ -85,16 +85,6 @@ namespace winPizzaHub
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Пепперони";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label3.Location = new System.Drawing.Point(483, 25);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(214, 22);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Иванов Иван Иванович";
-            // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -106,6 +96,26 @@ namespace winPizzaHub
             this.label4.TabIndex = 2;
             this.label4.Text = "Острая разновидность салями итало-американского происхождения. Обычно делается из" +
     " свинины.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label3.Location = new System.Drawing.Point(369, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(328, 33);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Иванов Иван Иванович";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::winPizzaHub.Properties.Resources.pizza00;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(160, 160);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // groupBox2
             // 
@@ -138,9 +148,9 @@ namespace winPizzaHub
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label6.Location = new System.Drawing.Point(563, 25);
+            this.label6.Location = new System.Drawing.Point(490, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 22);
+            this.label6.Size = new System.Drawing.Size(207, 33);
             this.label6.TabIndex = 1;
             this.label6.Text = "ФИО студента";
             // 
@@ -154,16 +164,6 @@ namespace winPizzaHub
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::winPizzaHub.Properties.Resources.pizza00;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(160, 160);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::winPizzaHub.Properties.Resources.free_icon_pizza_706918_1_;
@@ -176,11 +176,11 @@ namespace winPizzaHub
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(801, 561);
+            this.ClientSize = new System.Drawing.Size(827, 561);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
@@ -195,10 +195,10 @@ namespace winPizzaHub
             this.Text = "PizzaHub";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
