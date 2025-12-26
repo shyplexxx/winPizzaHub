@@ -148,11 +148,11 @@ namespace winPizzaHub
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label6.Location = new System.Drawing.Point(464, 36);
+            this.label6.Location = new System.Drawing.Point(480, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(207, 33);
+            this.label6.Size = new System.Drawing.Size(191, 33);
             this.label6.TabIndex = 1;
-            this.label6.Text = "ФИО студента";
+            this.label6.Text = "ФИО студент";
             // 
             // pictureBox3
             // 
